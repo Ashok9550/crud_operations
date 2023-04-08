@@ -1,0 +1,79 @@
+.th{
+    padding: 10px;
+    background-color: aqua;
+}
+.th:hover{
+
+    background-color:ghostwhite;
+    color: aqua;
+}
+.td1{
+    background-color: blue;
+    padding: 10px;
+}
+.td1:hover{
+    background-color:ghostwhite;
+    color:blue;
+}
+.td2{
+    background-color:lightgreen;
+    padding: 10px;
+}
+.td2:hover{
+    background-color:ghostwhite;
+    color:lightgreen;
+}
+.td3{
+    background-color:brown;
+    padding: 10px;
+}
+.td3:hover{
+    background-color:ghostwhite;
+    color:brown;
+}
+.td4{
+    background-color:rgb(242, 37, 37);
+    padding: 10px;
+}
+.td4:hover{
+    background-color:ghostwhite;
+    color:rgb(242, 37, 37);
+}
+.td5{
+    background-color:darkorange;
+    padding: 10px;
+}
+.td5:hover{
+    background-color:ghostwhite;
+    color:darkorange;
+}
+.td6{
+    background-color:deeppink;
+    padding: 10px;
+}
+.td6:hover{
+    background-color:ghostwhite;
+    color:deeppink;
+}
+.td7{
+    background-color:green;
+    padding: 10px;
+}
+.td7:hover{
+    background-color:ghostwhite;
+    color:green;
+}
+table{
+    border-color: aquamarine;
+    box-shadow: 2px 5px 15px 10px lightgreen;
+}
+.td8{
+    background-color:yellow;
+    padding: 10px;
+}
+.td8:hover{
+    background-color:ghostwhite;
+    color:rgba(224, 48, 230, 0.637);
+
+}
+

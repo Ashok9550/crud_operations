@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/c2.css' %}">
+</head>
+<body style="background-image: url('http://www.pixelstalk.net/wp-content/uploads/2016/07/A-Images-HD-Free-Download.jpg');">
+    <center>
+        <h1>
+            details_of_employee
+        </h1>
+        <table border="2px">
+            <tr>
+                <th class="th">
+                    deptno
+                </th>
+                <th class="th">
+                    ename
+                </th>
+                <th class="th">
+                    empno
+                </th>
+                <th class="th">
+                    job
+                </th>
+                <th class="th">
+                    mgr
+                </th>
+                <th class="th">
+                    hiredate
+                </th>
+                <th class="th">
+                    sal
+                </th>
+                <th class="th">
+                    comm
+                </th>
+            
+            </tr>
+            {% for em in details1 %}
+            <tr>
+                <td class="td8">
+                    {{ em.deptno}}
+                </td>
+                <td class="td1">{{em.ename}}</td>
+                <td class="td2">{{em.empno}}</td>
+                <td class="td3">{{em.job}}</td>
+                <td class="td4">{{em.mgr}}</td>
+                <td class="td5">{{em.hiredate}}</td>
+                <td class="td6">{{em.sal}}</td>
+                <td class="td7">{{em.comm}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </center>
+</body>
+</html>

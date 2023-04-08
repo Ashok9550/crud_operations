@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/c1.css' %}">
+</head>
+<body>
+    <center>
+    <h1>
+        dept_no details
+    </h1>
+    <table border="2px">
+        <tr id="tr1">
+            <th class="c2">deptno</th>
+            <th class="c2">dname</th>
+            <th class="c2">dloc</th>
+        </tr>
+        {% for do in details %}
+            <tr>
+                <td class="td1">
+                    {{ do.deptno }}
+            </td>
+                <td class="td2">
+                    {{ do.dname }}
+                </td>
+                <td class="td3">
+                    {{ do.dloc }}
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+</center>
+</body>
+</html>

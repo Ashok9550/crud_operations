@@ -1,0 +1,46 @@
+#tr1{
+    background-color: rgb(11, 227, 227);
+    padding: 10px;
+    
+}
+.td1{
+    background-color: indianred;
+    padding: 10px;
+}
+.td2{
+    background-color:blue;
+}
+.td3
+{
+    background-color: rgb(128, 0, 96);
+}
+table
+{
+  
+    border-color: rgb(251, 196, 226);
+    border-width: 10px;
+}
+#tr1:hover{
+    padding: 10px;
+    color:aqua;
+    background-color:ghostwhite;
+}
+body{
+    background-color: burlywood;
+}
+.c2{
+    padding: 10px;
+}
+.td1:hover{
+    color:indianred;
+    background-color: ghostwhite;
+}
+.td2:hover{
+    color: blue;
+    background-color: ghostwhite;
+}
+.td3:hover
+{
+    color: rgb(128, 0, 96);
+    background-color: ghostwhite;
+}
